@@ -1,24 +1,41 @@
-# 🛡️ Cybersecurity & Python Development Portfolio
+# 🛡️ Cybersecurity Lab & Python Development Portfolio
 
-Chào mừng đến với Repo của mình. Đây là nơi mình lưu trữ các dự án thực hành về Bảo mật mạng và Lập trình Python.
-
----
-
-## 🔍 Dự án 1: Vulnerability Assessment (Kioptrix L1)
-Dù Repo này tập trung vào code, nhưng mình cũng đã hoàn thành một Lab Pentest toàn diện trên môi trường ảo.
-- **Kỹ năng:** Reconnaissance, Vulnerability Research, Exploitation.
-- **Kết quả:** Chiếm quyền Root máy chủ qua lỗi Samba cũ.
-- **📄 Xem Báo Cáo Chi Tiết (PoC):** [Click tại đây](https://docs.google.com/document/d/1OJX6g9oxGI9HIPWLpTfJ2Td8I0B84qns/edit?usp=sharing)
+Chào mừng bạn đến với kho lưu trữ dự án cá nhân. Đây là nơi tổng hợp các kết quả thực hành về Kiểm thử xâm nhập (Pentest) và Lập trình Python ứng dụng.
 
 ---
 
-## 🐍 Dự án 2: Secure Login System (Python)
-Đây là dự án lập trình nằm trực tiếp trong Repo này.
-- **Chức năng:** Xác thực người dùng, chống Brute-force (khóa tài khoản sau 3 lần sai).
-- **Kỹ năng:** Python OOP, Defensive Programming.
-- **💻 Xem Code:** [File login_system.py tại đây](./login_system.py) *(Nhớ đổi tên cho đúng file của bro nhé)*
+## 🏗️ 1. Dự án: Vulnerability Assessment & Exploitation (Kioptrix Level 1)
+Dự án thực hiện quy trình Pentest toàn diện trên môi trường máy chủ giả lập để chiếm quyền điều khiển tối cao (Root).
+
+* **Công nghệ:** Kali Linux, Nmap, Metasploit, Wireshark.
+* **Các lỗ hổng đã xác định:**
+    * **Samba 2.2.1a (trans2open):** Khai thác lỗ hổng Buffer Overflow để chiếm Root shell thành công.
+    * **SSL/TLS Vulnerabilities:** Phát hiện các lỗi bảo mật nghiêm trọng (POODLE, CCS Injection, Weak DH Group) qua quét Nmap Scripting Engine (NSE).
+* **Tài liệu:**
+    * 📄 [Báo cáo Pentest chi tiết (Google Docs)](https://docs.google.com/document/d/1OJX6g9oxGI9HIPWLpTfJ2Td8I0B84qns/edit)
 
 ---
 
-## 🛠️ Công cụ sử dụng
-`Kali Linux` `Nmap` `Metasploit` `Wireshark` `Python`
+## 🏨 2. Dự án: Smart Hotel Booking System (Python Security Focus)
+Ứng dụng quản lý đặt phòng khách sạn được xây dựng bằng lập trình hướng đối tượng (OOP), tập trung vào các cơ chế xác thực an toàn.
+
+* **Tính năng chính:**
+    * **Quản lý phòng (OOP):** Sử dụng các Class `User` và `Room` để quản lý trạng thái đặt phòng và thông tin người dùng.
+    * **Cơ chế Bảo mật (Security Alert):** Tự động phát hiện hành vi Brute-force; hệ thống sẽ tự động khóa (Lockdown) trong 60 giây nếu nhập sai mật khẩu quá 3 lần.
+    * **Xử lý logic:** Kiểm tra độ dài mật khẩu (min 6 chars) và xác thực tài khoản thời gian thực.
+* **Mã nguồn & Tài liệu:**
+    * 💻 [Mã nguồn Python (Hotel booking.py)](./Hotel%20booking.py)
+    * 📄 [Báo cáo phân tích hệ thống (Google Docs)](https://docs.google.com/document/d/1rb_eC6TBOM6L9ibrzeYwLkfvw61cJyBaXHNmmqNbvuI/edit)
+
+---
+
+## 🛠️ Kỹ năng kỹ thuật (Tech Stack)
+* **Pentesting:** Network Discovery (Nmap), Vulnerability Scanning, Metasploit Framework.
+* **Traffic Analysis:** Deep Packet Inspection với Wireshark.
+* **Programming:** Python OOP, Security Logic (Rate Limiting/Lockout mechanism).
+
+---
+
+## 📬 Liên hệ
+* **Email:** anhnhatn026@gmail.com
+* **GitHub:** [anhnhatn026-beep](https://github.com/anhnhatn026-beep)
