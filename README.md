@@ -24,7 +24,7 @@ Dự án thực hiện quy trình Pentest toàn diện trên môi trường máy
     * **Cơ chế Bảo mật (Security Alert):** Tự động phát hiện hành vi Brute-force; hệ thống sẽ tự động khóa (Lockdown) trong 60 giây nếu nhập sai mật khẩu quá 3 lần.
     * **Xử lý logic:** Kiểm tra độ dài mật khẩu (min 6 chars) và xác thực tài khoản thời gian thực.
 * **Mã nguồn & Tài liệu:**
-    * 💻 [Xem mã nguồn tại đây (Hotel booking.py)](./Hotel%20booking.py)
+    * 💻[ [Xem mã nguồn tại đây (Hotel booking.py)](./Hotel%20booking.py)](https://github.com/anhnhatn026-beep/Small-project/blob/main/booking%20hotel)
     * 📄 [Báo cáo phân tích hệ thống (Google Docs)](https://docs.google.com/document/d/1rb_eC6TBOM6L9ibrzeYwLkfvw61cJyBaXHNmmqNbvuI/edit)
 
 ---
