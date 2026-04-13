@@ -25,7 +25,7 @@ Dự án thực hiện quy trình Pentest toàn diện trên môi trường máy
     * **Xử lý logic:** Kiểm tra độ dài mật khẩu (min 6 chars) và xác thực tài khoản thời gian thực.
 * **Mã nguồn & Tài liệu:**
     * 💻 [File code Booking hotel(python)](https://github.com/anhnhatn026-beep/Small-project/blob/main/booking%20hotel)
-    * 📄 [Báo cáo phân tích hệ thống (Google Docs)](https://docs.google.com/document/d/1rb_eC6TBOM6L9ibrzeYwLkfvw61cJyBaXHNmmqNbvuI/edit)
+    * 📄 [Báo cáo Booking hotel(Google Docs)](https://docs.google.com/document/d/1rb_eC6TBOM6L9ibrzeYwLkfvw61cJyBaXHNmmqNbvuI/edit)
 
 ---
 
